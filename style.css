@@ -219,6 +219,56 @@ body {
     object-fit: contain;
 }
 
+
+/* footer */
+
+.footer {
+    background-color: rgb(80, 135, 77);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-links ul li {
+    margin-right: 20px;
+}
+
+.footer-links ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer-social a:hover {
+    color: #ffd700; 
+}
+
+
 /* Media Queries */
 
 @media (max-width: 720px) {
@@ -270,7 +320,7 @@ body {
 
     .text-presentation {
         position: relative;
-        left: 110px;
+        left: 80px;
         text-align: center;
     }
 
@@ -281,46 +331,10 @@ body {
 
     .image-presentation img {
         position: relative;
+        left: 20px;
         bottom: -100px;
     }
 
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* tabla */
-
-.table {
-    width: 100%;
-    border-collapse: collapse;
-    border: 1px solid #ddd;
-    /* Borde alrededor de la tabla */
-}
-
-.table th,
-.table td {
-    padding: 8px;
-    /* Relleno interno de celdas */
-    border: 1px solid #ddd;
-    /* Borde alrededor de las celdas */
-}
-
-.table th {
-    background-color: #f2f2f2;
-}
-
-.table tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-    /* Color de fondo para filas pares */
-}
