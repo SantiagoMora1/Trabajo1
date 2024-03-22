@@ -11,7 +11,7 @@
 
 body {
     font-family: "Roboto Condensed", sans-serif;
-    
+
 }
 
 
@@ -22,7 +22,7 @@ body {
     position: absolute;
     right: 30px;
     top: 30px;
-    
+
 }
 
 /* nav */
@@ -33,7 +33,7 @@ body {
     background-size: cover;
     width: 100%;
     height: 300px;
-    
+
 }
 
 
@@ -43,9 +43,7 @@ body {
     display: flex;
 }
 
-.nav-menu ul {
-    
-}
+.nav-menu ul {}
 
 .nav-menu a {
     font-size: 20px;
@@ -63,7 +61,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 30px;
+    bottom: 20px;
 
 }
 
@@ -75,6 +73,11 @@ body {
 
 .header-content p {
     font-size: 20px;
+}
+
+.header-content img {
+
+    height: 50px;
 }
 
 
@@ -93,6 +96,7 @@ body {
     right: 170px;
     width: 500px;
     font-size: 20px;
+    z-index: 1;
 }
 
 .text-presentation h2 {
@@ -124,6 +128,7 @@ body {
     flex-direction: column;
     position: relative;
     bottom: 50px;
+    
 }
 
 .image-presentation h2 {
@@ -133,7 +138,7 @@ body {
 .image-presentation span {
     padding: 15px 0px 15px;
     color: rgb(80, 135, 77);
-    
+
 }
 
 .image-presentation img {
@@ -145,7 +150,8 @@ body {
 /* hobbies */
 
 .hobbies-container {
-    background-color: rgb(250, 250, 250);    ;
+    background-color: rgb(250, 250, 250);
+    ;
     padding: 80px 0px;
 }
 
@@ -185,7 +191,7 @@ body {
     padding: 30px 14px;
 }
 
-.h2style{
+.h2style {
     margin-bottom: 15px;
 }
 
@@ -222,8 +228,8 @@ body {
 
     .menu-btn i {
         position: relative;
-        bottom: 20px;
-        left: 20px;
+
+
     }
 
     .nav-container ul.nav-menu {
@@ -237,7 +243,7 @@ body {
         opacity: 0.9;
         padding: 30px;
         z-index: 2;
-        background: rgb(80, 135, 77);
+        background: rgba(98, 165, 95, 0.799);
 
         transform: translateX(-400px);
         transition: transform 0.5s ease-in-out;
@@ -248,13 +254,36 @@ body {
     }
 
 
-.nav-menu a {
-    
-    color: white;
-}
-.header-content {
-    position: relative;
-    top: 95px;
+    .nav-menu a {
+
+        color: white;
+    }
+
+    .header-content {
+        position: relative;
+        bottom: -46px;
+    }
+
+    .presentation-container {
+        flex-direction: column;
+    }
+
+    .text-presentation {
+        position: relative;
+        left: 110px;
+        text-align: center;
+    }
+
+    .image-presentation h2,
+    .image-presentation span {
+        display: none;
+    }
+
+    .image-presentation img {
+        position: relative;
+        bottom: -100px;
+    }
+
 }
 
 
